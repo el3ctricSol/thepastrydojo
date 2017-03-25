@@ -56,7 +56,6 @@ img {
 
 }
 
-
 a {
     margin-left: 10px;
     text-decoration: none;
@@ -192,18 +191,19 @@ footer {
                     opacity: 1;
                 }
             }
-            nav {
-                background: #5CB09E;
-                position: absolute;
-                top: 0;
-                left: 0;
-                height: 100%;
-                width: 100%;
-                z-index: 10;
-                opacity: 0;
-                transition: all 1000ms cubic-bezier(.62, .04, .3, 1.56);
-                transition-delay: 100ms;
-            }
+nav {
+  background: #5CB09E;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  opacity: 0;
+  transition: all 1000ms cubic-bezier(.62, .04, .3, 1.56);
+  transition-delay: 100ms;
+}
+
 ul {
   margin: 0;
   position: absolute;
