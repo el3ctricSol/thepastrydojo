@@ -17,7 +17,7 @@ icon.addEventListener('click', function() {
 
 
 
-// fade transition betweeen pages
+// fade transition between pages
 
 var speed = 'slow';
 
